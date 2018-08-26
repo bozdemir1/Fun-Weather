@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funweather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+
+</head>
+
+<body>
+    <div class="header-blue">
+        <nav class="navbar navbar-default navbar-fixed-top" id="naV">
+            <div class="container">
+                <div class="navbar-header"><a href="#home" class="navbar-brand page-scroll">fun weather.</a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"><a class="page-scroll" href="#home">Home</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#features">Features</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#reviews">Reviews</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#download">Download</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-facebook-f"></i></a></li>
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-instagram"></i></a></li>
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0">
+                        <h1>Get the most fun weather app</h1>
+                        <p>Simple,nice and user-friendly application of the weather.Only useful information </p><button class="btn btn-lg action-button" type="button">Download</button>
+                        <button class="btn btn-lg action-button-2" type="button">Features</button>
+                    </div>
+                    <div class="col-md-12" style="height:72px;width:165px;"></div>
+                    <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                        <div class="col-xs-2 hidden-md  phone-circle-7">Sunny</div>
+                        <div class="iphone-mockup"><img src="img/header-iphone.svg" class="device">
+                            <div class="screen"></div>
+                            <div class="col-xs-2 hidden-xs hidden-sm hidden-md phone-circle-8">9°</div>
+                            <div class="col-xs-2 hidden-xs hidden-sm hidden-md  phone-circle-9">london</div>
+                            <div class="col-xs-2 hidden-xs hidden-sm hidden-md  phone-circle-10">rio</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <div class="scroll col-md-offset-1">
+        <a href="#" class="scroll-down" address="true"></a>
+    </div>
+   
+    <section id="features">
+        <div class="features-blue">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center h2-intro">perfect features</h2>
+                    <h5 class="text-center h5-intro">Only necessarry </h5>
+                </div>                <div class="row features">
+                    <div class="col-md-4 col-sm-6  item"><img src="img/gem-icon.png" class="icon">
+                        <h3 class="name">Usability</h3>
+                        <p class="description">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6  item"><img src="img/parallax-icon.png" class="icon">
+                        <h3 class="name">Parallax Effect</h3>
+                        <p class="description">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+                    </div>
+                    <div class="col-md-4 col-sm-6  item"><img src="img/colors-icon.png" class="icon">
+                        <h3 class="name">Unlimites Colors</h3>
+                        <p class="description">Sometimes the simplest things are the hardest to find. So we created a new line for everyday life</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="intro">
+        <h2 class="text-center h2-intro">simple widgets</h2>
+        <h5 class="text-center h5-intro">Drag And Drop </h5>
+    </div>
+    <div class="container" id="widgets" id="section-2">
+        <carousel-3d :perspective="0" :space="300" :display="4" :width="340" :height="650" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'" :controls-width="30" :controls-height="60" :clickable="false">
+            <slide :index="0">
+                <figure>
+                    <img src="img/widgets/widget-1.jpg">
+                </figure>
+            </slide>
+            <slide :index="1">
+                <img src="img/widgets/widget-2.jpg">
+            </slide>
+            <slide :index="2">
+                <img src="img/widgets/widget-3.jpg">
+            </slide>
+        </carousel-3d>
+    </div>
+    <div class="intro">
+        <h2 class="text-center h2-intro">screenshots</h2>
+        <h5 class="text-center h5-intro">The Brightest images</h5>
+    </div>
+    <div class="container screenshots">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                <div class="col-xs-2 phone-circle-1">Cloudy</div>
+                <div class="iphone-mockup"><img src="img/iphone.svg" class="device">
+                    <div class="screen-1"></div>
+                </div>
+                <div class="col-xs-2 phone-circle-2">15°</div>
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 screenshots-content">
+                <img src="img/cloud-icon.png" class="screenshots-icons">
+                <h2 class="h2-intro">screenshots</h2>
+                <p>Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends </p>
+                <div class="container">
+                    <div class="row hidden-xs hidden-sm">
+                        <div class="circle-1">95%</div>
+                        <div class="circle-2">9°</div>
+                        <div class="circle-3">Rainy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" style="height:72px;width:165px;"></div>
+        </div>
+    </div>
+
+    <div class="container screenshots">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 screenshots-content">
+                <img src="img/sun-icon.png" class="screenshots-icons">
+                <h2 class="h2-intro">screenshots</h2>
+                <p>Sometimes the simplest things are the hardest to find. So we created a new line for everyday life. Sometimes the simplest </p>
+                <div class="container">
+                    <div class="row hidden-xs hidden-sm">
+                        <div class="circle-1">95%</div>
+                        <div class="circle-2">9°</div>
+                        <div class="circle-3">Rainy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" style="height:72px;width:165px;"></div>
+            <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                <div class="col-xs-2 phone-circle-3">Sunny</div>
+                <div class="iphone-mockup"><img src="img/iphone.svg" class="device">
+                    <div class="screen-2"></div>
+                </div>
+                <div class="col-xs-2 phone-circle-4">35°</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container screenshots">
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                <div class="col-xs-2 phone-circle-5">Rainy</div>
+                <div class="iphone-mockup"><img src="img/iphone.svg" class="device">
+                    <div class="screen-3"></div>
+                </div>
+                <div class="col-xs-2 phone-circle-6">9°</div>
+            </div>
+            <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 screenshots-content">
+                <img src="img/rainy-icon.png" class="screenshots-icons">
+                <h2 class="h2-intro">screenshots</h2>
+                <p>Variable information on the air humidity, the feeling of the weather, and the ability to share this with your friends </p>
+                <div class="container">
+                    <div class="row hidden-xs hidden-sm">
+                        <div class="circle-1">95%</div>
+                        <div class="circle-2">9°</div>
+                        <div class="circle-3">Rainy</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" style="height:72px;width:165px;"></div>
+        </div>
+    </div>
+
+    <section id="reviews">
+        <div class="container peoples" id="section-2">
+            <div class="intro">
+                <h2 class="text-center h2-intro">what people are saying</h2>
+                <h5 class="text-center h5-intro">Reviews</h5>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 item">
+                    <ul class="p-saying">
+                        <li class="li-icon"><img src="img/blockquote-top.png"></li>
+                        <li>What art offers is space - a certain breathing room for the spirit. </li>
+                        <li>John Updike</li>
+                        <li class="li-icon-2"><img src="img/blockquote-bot.png"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 item">
+                    <ul class="p-saying">
+                        <li class="li-icon"><img src="img/blockquote-top.png"></li>
+                        <li>What art offers is space - a certain breathing room for the spirit. </li>
+                        <li>asdasdasd</li>
+                        <li class="li-icon-2"><img src="img/blockquote-bot.png"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 item">
+                    <ul class="p-saying">
+                        <li class="li-icon"><img src="img/blockquote-top.png"></li>
+                        <li>What art offers is space - a certain breathing room for the spirit. </li>
+                        <li>asdasdasd</li>
+                        <li class="li-icon-2"><img src="img/blockquote-bot.png"></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 item">
+                    <ul class="p-saying">
+                        <li class="li-icon"><img src="img/blockquote-top.png"></li>
+                        <li>What art offers is space - a certain breathing room for the spirit. </li>
+                        <li>asdasdasd</li>
+                        <li class="li-icon-2"><img src="img/blockquote-bot.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download">
+        <div class="container-fluid download" id="section-3">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0">
+                    <h1>how to download the app?</h1>
+                    <p>Just download the app from the store. Simple, nice and user-friendly application of theweather. Only relevant and useful information.</p>
+                    <div class="download-buttons">
+                        <a href="#" class="btn btn-app-store"><i class="fab fa-apple"></i> <span class="small">Download on the</span> <span class="big">App Store</span></a>
+                        <a href="#" class="btn btn-app-store"><i class="fab fa-google-play"></i> <span class="small-2">Android App On</span> <span class="big">Google play</span></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 hidden-xs hidden-sm phone-holder">
+                    <img src="img/download-phones.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <nav class="navbar navbar-default navbar-footer" id="naV">
+            <div class="container dero">
+                <div class="navbar-header"><a href="#" class="navbar-brand"><span class="brand-1">fun</span><span class="brand-2"> weather.</span></a><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"><a class="page-scroll" href="#home">Home</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#features">Features</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#reviews">Reviews</a></li>
+                        <li role="presentation"><a class="page-scroll" href="#download">Download</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-facebook-f"></i></a></li>
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-instagram"></i></a></li>
+                        <li role="presentation"><a href="#"><i class="fa-2x fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+        <p>© 2016 All rights reserved. Weather App Theme by Gravpix</p>
+        <div class="up-button" id="backToTop">
+            <a href="#" class="btn btn-sm"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
+    <script src="js/vue-carousel-3d-master/dist/vue-carousel-3d.min.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

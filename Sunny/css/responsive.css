@@ -1,0 +1,319 @@
+@media(min-width:992px) and (max-width:1199px){
+    /*Cloudy*/
+div.phone-circle-1 {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 28px 10px;
+    background: #fcec64;
+    color: #fff;
+    text-align: center;
+    font: 20px 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top:35%;
+    left:66%;
+    z-index: 1;
+}
+div.phone-circle-2{
+    /* 15 c*/
+   border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 23px 10px;
+    background: #6ca3ff;
+    color: #fff;
+    text-align: center;
+    font: 28px 'Ubuntu', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:65%;
+    right:84%;
+}
+div.phone-circle-3{
+    /*Sunny */
+   border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 28px 10px;
+    background: #f2a14e;
+    color: #fff;
+    text-align: center;
+    font: 20px 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top:25%;
+    left:66%;
+    z-index: 1;
+}
+div.phone-circle-4{
+    /* 35 c*/
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 23px 10px;
+    background: #fc6a42;
+    color: #fff;
+    text-align: center;
+    font: 28px 'Ubuntu', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:68%;
+    right:83%;
+}
+div.phone-circle-5{
+    /* Rainy */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 30px 10px;
+    background: #b8faee;
+    color: #7e8c91;
+    text-align: center;
+    font: 18px 'Ubuntu', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top:31%;
+    left:65%;
+    z-index: 1;
+}
+div.phone-circle-6{
+    /* 9 c */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 20px 0 0 5px; ;
+    background: #7693c8;
+    color: #fff;
+    text-align: center;
+    font: 35px 'Ubuntu', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top:68%;
+    right:84%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .header-blue {
+        padding-bottom: 80px
+    }
+}
+
+@media (max-width:767px) {
+    .header-blue .navbar {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .header-blue .navbar .navbar-header {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .header-blue .navbar .navbar-right {
+        margin-bottom: 20px
+    }
+}
+
+@media (max-width:767px) {
+    .header-blue .hero {
+        margin-top: 20px;
+        text-align: center
+    }
+}
+@media (max-width:991px) {
+    .header-blue .hero h1 {
+        margin-top: 0;
+        margin-bottom: 15px;
+        line-height: 1.4
+    }
+}
+@media (max-width:1920px) {
+.scroll-down {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 18%;
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .scroll-down{
+        margin-left:15%;
+    }
+}
+
+@media (max-width:767px) {
+    .features-blue {
+        padding-bottom: 10px
+    }
+    .h2-intro {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px
+    }
+}
+@media (max-width:767px) {
+    .features-blue .intro {
+        margin-bottom: 40px
+    }
+    .features-blue .item {
+        min-height: 0;
+        margin-left:25px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .features-blue .item {
+        min-height: 0;
+        padding-right:20px;
+    }
+}
+@media (min-width:481px) and (max-width:766px) {
+    .features-blue .intro {
+        margin-bottom: 40px
+    }
+    .features-blue .item {
+        min-height: 0;
+        margin-left:12px;
+    }
+}
+@media (max-width:991px){
+    .carousel-3d-controls .prev{
+        margin-left:-10px;
+    }
+    .carousel-3d-controls .next{
+        margin-right:-10px;
+    }
+}
+@media (max-width:991px){
+    .screenshots{
+    margin-top:-10px;
+    text-align: center;
+    } 
+    
+.screenshots h1 {
+        margin-top: 0;
+        margin-bottom: 15px;
+        line-height: 1.4
+    }
+}
+
+@media  (max-width:991px){
+    .screenshots-content p {
+        text-align: center;
+    }
+    .screenshots-content{
+        margin-top:10px;
+    }
+}
+@media (min-width:1024px){
+.screenshots-content p {
+    max-width: 370px;
+    }  
+    .screenshots{
+    margin-top: 180px;
+    }
+}
+
+@media (min-width:1024px) {
+    .download h1 {
+        text-align: center;
+        margin-top:70px;
+        margin-bottom: 15px;
+        line-height: 1.4
+    }
+}
+@media (max-width:991px) {
+    .download h1 {
+        text-align: center;
+        margin-top:10px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:480px){  
+div.download h1{
+    font-size:20px;
+    padding-top:15px;
+    padding-right: 20px;
+    margin-left: 25px;
+    }
+    div.download p {
+        margin-left:-5px;
+        margin-top:-35px;
+    }
+    div.download-buttons{
+        margin-left:15px    
+    }
+    .btn-app-store{
+        margin-top:5px;
+    }
+}
+
+@media (min-width:1024px){
+    .download p {
+    max-width: 500px;
+    }  
+}
+@media (max-width:991px){
+    .download p,
+    .download-buttons{
+        text-align: center;
+        padding-top:10px;
+        }
+    }
+
+
+@media (max-width:767px) {
+    .download {
+        margin-top: 20px;
+        text-align: center
+    }
+}
+
+
+@media (max-width:991px) {
+    .footer {
+        padding-bottom: 10px
+    }
+}
+
+@media (max-width:767px) {
+    .footer .navbar {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .footer .navbar .navbar-header {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+    .footer .navbar .navbar-right {
+        margin-bottom: 20px
+    }
+}
+@media (max-width:767px) {
+    .footer .dero {
+        margin-top: 20px;
+        text-align: center
+    }
+}
+@media (max-width:1600px){
+    .up-button .btn{
+        margin-top:38px;
+    }
+}
+@media(min-width:1601px) and (max-width:1920px){
+    .up-button .btn {
+        margin-top:0;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .up-button .btn{
+        position:relative;
+        display: inline-block;
+        margin-top:2%;
+    }
+    div.footer p {
+        margin-right:35px;
+    }
+}
