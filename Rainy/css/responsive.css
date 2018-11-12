@@ -128,20 +128,6 @@ div.phone-circle-6{
         line-height: 1.4
     }
 }
-@media (max-width:1920px) {
-.scroll-down {
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-left: 18%;
-    }
-}
-
-
-@media only screen and (min-width:320px) and (max-width:480px){
-    .scroll-down{
-        margin-left:15%;
-    }
-}
 
 @media (max-width:767px) {
     .features-blue {
@@ -173,8 +159,7 @@ div.phone-circle-6{
         margin-bottom: 40px
     }
     .features-blue .item {
-        min-height: 0;
-        margin-left:12px;
+        margin-left:15px;
     }
 }
 @media (max-width:991px){
@@ -298,23 +283,3 @@ div.download h1{
     }
 }
 
-@media (max-width:1600px){
-    .up-button .btn{
-        margin-top:38px;
-    }
-}
-@media(min-width:1601px) and (max-width:1920px){
-    .up-button .btn {
-        margin-top:0;
-    }
-}
-@media only screen and (min-width:320px) and (max-width:480px){
-    .up-button .btn{
-        position:relative;
-        display: inline-block;
-        margin-top:2%;
-    }
-    div.footer p {
-        margin-right:35px;
-    }
-}
